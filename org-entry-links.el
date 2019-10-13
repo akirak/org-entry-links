@@ -94,7 +94,7 @@ ARG is passed to `org-entry-links--get-links'."
                 'org-link-element (plist-get plist :element)
                 'org-raw-link (plist-get plist :raw-string))))))
 
-;;;###autoload (autoload 'org-entry-links-ivy "ivy")
+;;;###autoload (autoload 'org-entry-links-ivy "org-entry-links")
 (with-eval-after-load 'ivy
   (defun org-entry-links-ivy (&optional arg)
     "Select a link in the current entry via Ivy.
